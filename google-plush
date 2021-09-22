@@ -1,0 +1,10 @@
+
+Generate SH1 -
+
+1. generate keystore file.
+2. keep that into ionic folder.
+3. go to ionic app folder and in cmd type - 
+
+  keytool -list -v -alias <your-key-name> -keystore <path-to-production-keystore>
+  
+  
